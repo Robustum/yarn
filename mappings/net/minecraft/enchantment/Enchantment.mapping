@@ -56,7 +56,7 @@ CLASS net/minecraft/class_1887 net/minecraft/enchantment/Enchantment
 		ARG 1 level
 		ARG 2 group
 	CLASS class_1888 Rarity
-		COMMENT The rarity is an attribute of an enchantment.
+		COMMENT the rarity is an attribute of an enchantment.
 		COMMENT
 		COMMENT <p>It affects the chance of getting an enchantment from enchanting or
 		COMMENT loots as well as the combination cost in anvil.

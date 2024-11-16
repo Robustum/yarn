@@ -5,7 +5,7 @@ CLASS net/minecraft/class_3922 net/minecraft/block/CampfireBlock
 	FIELD field_17354 WATERLOGGED Lnet/minecraft/class_2746;
 	FIELD field_17564 FACING Lnet/minecraft/class_2753;
 	FIELD field_21580 SMOKEY_SHAPE Lnet/minecraft/class_265;
-		COMMENT The shape used to test whether a given block is considered 'smokey'.
+		COMMENT the shape used to test whether a given block is considered 'smokey'.
 	FIELD field_23881 emitsParticles Z
 	FIELD field_25182 fireDamage I
 	METHOD <init> (ZILnet/minecraft/class_4970$class_2251;)V

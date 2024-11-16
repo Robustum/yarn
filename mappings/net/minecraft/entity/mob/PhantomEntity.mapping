@@ -28,7 +28,7 @@ CLASS net/minecraft/class_1593 net/minecraft/entity/mob/PhantomEntity
 			ARG 2 entity
 	CLASS class_1600 PhantomMoveControl
 		FIELD field_7331 targetSpeed F
-			COMMENT The movement speed that the phantom tends towards
+			COMMENT the movement speed that the phantom tends towards
 		METHOD <init> (Lnet/minecraft/class_1593;Lnet/minecraft/class_1308;)V
 			ARG 2 owner
 	CLASS class_1601 MovementGoal

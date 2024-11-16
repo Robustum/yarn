@@ -9,7 +9,7 @@ CLASS net/minecraft/class_4095 net/minecraft/entity/ai/brain/Brain
 	FIELD field_18329 defaultActivity Lnet/minecraft/class_4168;
 	FIELD field_18853 activityStartTime J
 	FIELD field_22282 forgettingActivityMemories Ljava/util/Map;
-		COMMENT The map from activities to the memories to forget after the activity is
+		COMMENT the map from activities to the memories to forget after the activity is
 		COMMENT completed.
 	FIELD field_24656 LOGGER Lorg/apache/logging/log4j/Logger;
 	FIELD field_24657 codecSupplier Ljava/util/function/Supplier;
@@ -73,7 +73,7 @@ CLASS net/minecraft/class_4095 net/minecraft/entity/ai/brain/Brain
 		ARG 1 value
 	METHOD method_24524 indexTaskList (ILcom/google/common/collect/ImmutableList;)Lcom/google/common/collect/ImmutableList;
 		ARG 1 begin
-			COMMENT The beginning of the index of tasks, exclusive
+			COMMENT the beginning of the index of tasks, exclusive
 		ARG 2 tasks
 	METHOD method_24525 remember (Lnet/minecraft/class_4140;Ljava/lang/Object;J)V
 		ARG 1 type

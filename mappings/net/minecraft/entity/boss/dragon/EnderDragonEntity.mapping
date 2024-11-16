@@ -5,7 +5,7 @@ CLASS net/minecraft/class_1510 net/minecraft/entity/boss/dragon/EnderDragonEntit
 	FIELD field_7010 latestSegment I
 	FIELD field_7011 partNeck Lnet/minecraft/class_1508;
 	FIELD field_7012 pathNodes [Lnet/minecraft/class_9;
-		COMMENT The first 12 path nodes are used for end crystals; the others are not tied to them.
+		COMMENT the first 12 path nodes are used for end crystals; the others are not tied to them.
 	FIELD field_7013 PHASE_TYPE Lnet/minecraft/class_2940;
 	FIELD field_7014 partWingLeft Lnet/minecraft/class_1508;
 	FIELD field_7015 partWingRight Lnet/minecraft/class_1508;

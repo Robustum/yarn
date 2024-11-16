@@ -5,7 +5,7 @@ CLASS net/minecraft/class_1409 net/minecraft/entity/ai/pathing/MobNavigation
 	METHOD method_6361 setAvoidSunlight (Z)V
 		ARG 1 avoidSunlight
 	METHOD method_6362 getPathfindingY ()I
-		COMMENT The y-position to act as if the entity is at for pathfinding purposes
+		COMMENT the y-position to act as if the entity is at for pathfinding purposes
 	METHOD method_6363 setCanPathThroughDoors (Z)V
 		ARG 1 canPathThroughDoors
 	METHOD method_6364 allVisibleAreSafe (IIIIIILnet/minecraft/class_243;DD)Z

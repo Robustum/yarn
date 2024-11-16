@@ -25,7 +25,7 @@ CLASS net/minecraft/class_1324 net/minecraft/entity/attribute/EntityAttributeIns
 		ARG 1 operation
 	METHOD method_26835 addTemporaryModifier (Lnet/minecraft/class_1322;)V
 		COMMENT Adds a temporary attribute modifier.
-		COMMENT The modifier will not be serialized.
+		COMMENT the modifier will not be serialized.
 		ARG 1 modifier
 	METHOD method_26836 (Lnet/minecraft/class_1322$class_1323;)Ljava/util/Set;
 		ARG 0 operation
