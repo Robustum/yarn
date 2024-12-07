@@ -131,10 +131,10 @@ tasks.register('mapIntermediaryJar', MapJarTask) {
 }
 
 tasks.register('mapServerIntermediaryJar', MapJarTask) {
-	dependsOn downloadIntermediary, extractBundledServer
+	dependsOn downloadIntermediary, downloadMinecraftServerJar
 	group = mapJarGroup
 	output = layout.buildDirectory.file("${minecraft_version}-server-intermediary.jar")
-	input = extractBundledServer.output
+	input = downloadMinecraftServerJar.output
 	mappings = downloadIntermediary.output
 	classpath.from minecraftLibraries
 	from = 'official'

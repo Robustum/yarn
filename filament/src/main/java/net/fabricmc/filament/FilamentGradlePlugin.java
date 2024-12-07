@@ -18,7 +18,6 @@ import net.fabricmc.filament.task.GeneratePackageInfoMappingsTask;
 import net.fabricmc.filament.task.JavadocLintTask;
 import net.fabricmc.filament.task.RemapUnpickDefinitionsTask;
 import net.fabricmc.filament.task.base.WithFileOutput;
-import net.fabricmc.filament.task.minecraft.ExtractBundledServerTask;
 import net.fabricmc.filament.task.minecraft.MergeMinecraftTask;
 import net.fabricmc.loom.configuration.providers.minecraft.MinecraftVersionMeta;
 import net.fabricmc.loom.util.gradle.GradleUtils;
@@ -47,14 +46,9 @@ public final class FilamentGradlePlugin implements Plugin<Project> {
 
 			task.getOutput().set(extension.getMinecraftFile("server_bundle.jar"));
 		});
-		var extractBundledServer = tasks.register("extractBundledServer", ExtractBundledServerTask.class, task -> {
-			task.dependsOn(minecraftServer);
-			task.getInput().set(getOutput(minecraftServer));
-			task.getOutput().set(extension.getMinecraftFile("server.jar"));
-		});
 		tasks.register("mergeMinecraftJars", MergeMinecraftTask.class, task -> {
 			task.getClientJar().set(getOutput(minecraftClient));
-			task.getServerJar().set(getOutput(extractBundledServer));
+			task.getServerJar().set(getOutput(minecraftServer));
 
 			task.getOutput().set(extension.getMinecraftFile("merged.jar"));
 		});
