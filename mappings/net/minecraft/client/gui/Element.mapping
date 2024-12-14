@@ -15,7 +15,7 @@ CLASS net/minecraft/class_364 net/minecraft/client/gui/Element
 	METHOD method_16803 keyReleased (III)Z
 		COMMENT Callback for when a key down event has been captured.
 		COMMENT
-		COMMENT The key code is identified by the constants in
+		COMMENT the key code is identified by the constants in
 		COMMENT {@link org.lwjgl.glfw.GLFW GLFW} class.
 		COMMENT
 		COMMENT @return {@code true} to indicate that the event handling is successful/valid
@@ -31,7 +31,7 @@ CLASS net/minecraft/class_364 net/minecraft/client/gui/Element
 	METHOD method_25400 charTyped (CI)Z
 		COMMENT Callback for when a character input has been captured.
 		COMMENT
-		COMMENT The key code is identified by the constants in
+		COMMENT the key code is identified by the constants in
 		COMMENT {@link org.lwjgl.glfw.GLFW GLFW} class.
 		COMMENT
 		COMMENT @return {@code true} to indicate that the event handling is successful/valid
@@ -58,7 +58,7 @@ CLASS net/minecraft/class_364 net/minecraft/client/gui/Element
 		COMMENT Callback for when a mouse button down event
 		COMMENT has been captured.
 		COMMENT
-		COMMENT The button number is identified by the constants in
+		COMMENT the button number is identified by the constants in
 		COMMENT {@link org.lwjgl.glfw.GLFW GLFW} class.
 		COMMENT
 		COMMENT @return {@code true} to indicate that the event handling is successful/valid
@@ -74,7 +74,7 @@ CLASS net/minecraft/class_364 net/minecraft/client/gui/Element
 		COMMENT Callback for when a mouse button drag event
 		COMMENT has been captured.
 		COMMENT
-		COMMENT The button number is identified by the constants in
+		COMMENT the button number is identified by the constants in
 		COMMENT {@link org.lwjgl.glfw.GLFW GLFW} class.
 		COMMENT
 		COMMENT @return {@code true} to indicate that the event handling is successful/valid
@@ -93,7 +93,7 @@ CLASS net/minecraft/class_364 net/minecraft/client/gui/Element
 	METHOD method_25404 keyPressed (III)Z
 		COMMENT Callback for when a key down event has been captured.
 		COMMENT
-		COMMENT The key code is identified by the constants in
+		COMMENT the key code is identified by the constants in
 		COMMENT {@link org.lwjgl.glfw.GLFW GLFW} class.
 		COMMENT
 		COMMENT @return {@code true} to indicate that the event handling is successful/valid
@@ -119,7 +119,7 @@ CLASS net/minecraft/class_364 net/minecraft/client/gui/Element
 		COMMENT Callback for when a mouse button release event
 		COMMENT has been captured.
 		COMMENT
-		COMMENT The button number is identified by the constants in
+		COMMENT the button number is identified by the constants in
 		COMMENT {@link org.lwjgl.glfw.GLFW GLFW} class.
 		COMMENT
 		COMMENT @return {@code true} to indicate that the event handling is successful/valid

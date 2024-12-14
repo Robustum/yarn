@@ -39,8 +39,8 @@ CLASS net/minecraft/class_2794 net/minecraft/world/gen/chunk/ChunkGenerator
 		ARG 2 feature
 		ARG 3 center
 		ARG 4 radius
-			COMMENT The search radius in chunks around the chunk the given block position is in. A radius of 0 will only search in the given chunk.
-			COMMENT This is ignored for strongholds.
+			COMMENT the search radius in chunks around the chunk the given block position is in. A radius of 0 will only search in the given chunk
+			COMMENT This is ignored for strongholds
 		ARG 5 skipExistingChunks
 			COMMENT whether only structures that are not referenced by generated chunks (chunks past the STRUCTURE_STARTS stage) are returned, excluding strongholds
 	METHOD method_12104 getWorldHeight ()I

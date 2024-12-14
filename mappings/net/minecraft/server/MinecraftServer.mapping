@@ -143,7 +143,7 @@ CLASS net/minecraft/server/MinecraftServer
 	METHOD method_3732 shouldBroadcastRconToOps ()Z
 	METHOD method_3734 getCommandManager ()Lnet/minecraft/class_2170;
 		COMMENT Gets the server's command manager.
-		COMMENT The command manager is responsible for parsing and dispatching commands.
+		COMMENT the command manager is responsible for parsing and dispatching commands.
 	METHOD method_3735 loadWorld ()V
 	METHOD method_3736 shouldSpawnNpcs ()Z
 	METHOD method_3738 getWorlds ()Ljava/lang/Iterable;

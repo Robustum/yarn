@@ -1,6 +1,6 @@
 CLASS net/minecraft/class_1293 net/minecraft/entity/effect/StatusEffectInstance
 	FIELD field_21830 hiddenEffect Lnet/minecraft/class_1293;
-		COMMENT The effect hidden when upgrading effects. Duration decreases with this
+		COMMENT the effect hidden when upgrading effects. Duration decreases with this
 		COMMENT effect.
 		COMMENT
 		COMMENT <p>This exists so that long-duration low-amplifier effects reappears

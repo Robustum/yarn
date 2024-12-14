@@ -13,7 +13,7 @@ CLASS net/minecraft/class_5314 net/minecraft/world/gen/chunk/StructureConfig
 		COMMENT Defines the margin of each cell in the placement grid, which leads to guaranteeing
 		COMMENT a certain minimum distance between each placed structure.
 		COMMENT <p>
-		COMMENT The margin is effectively subtracted from the width and height of a cell when
+		COMMENT the margin is effectively subtracted from the width and height of a cell when
 		COMMENT trying to determine the actual starting chunk within the cell.
 		COMMENT <p>
 		COMMENT A value of 0 means that the structure can be placed in any chunk within a grid cell,

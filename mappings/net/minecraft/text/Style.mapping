@@ -1,5 +1,5 @@
 CLASS net/minecraft/class_2583 net/minecraft/text/Style
-	COMMENT The style of a {@link Text}, representing cosmetic attributes. It includes
+	COMMENT the style of a {@link Text}, representing cosmetic attributes. It includes
 	COMMENT font, formatting, click/hover events (actions), color, etc.
 	COMMENT
 	COMMENT <p>A style is immutable.</p>
@@ -15,7 +15,7 @@ CLASS net/minecraft/class_2583 net/minecraft/text/Style
 	FIELD field_11859 insertion Ljava/lang/String;
 	FIELD field_11861 obfuscated Ljava/lang/Boolean;
 	FIELD field_24359 DEFAULT_FONT_ID Lnet/minecraft/class_2960;
-		COMMENT The identifier for the default font of a style.
+		COMMENT the identifier for the default font of a style.
 	FIELD field_24360 EMPTY Lnet/minecraft/class_2583;
 		COMMENT An empty style.
 	FIELD field_24361 font Lnet/minecraft/class_2960;

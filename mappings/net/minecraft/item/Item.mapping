@@ -24,13 +24,13 @@ CLASS net/minecraft/class_1792 net/minecraft/item/Item
 	METHOD method_24358 isFireproof ()Z
 	METHOD method_7836 use (Lnet/minecraft/class_1937;Lnet/minecraft/class_1657;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1271;
 		COMMENT Called when an item is used by a player.
-		COMMENT The use action, by default, is bound to the right mouse button.
+		COMMENT the use action, by default, is bound to the right mouse button.
 		COMMENT
 		COMMENT <p>This method is called on both the logical client and logical server, so take caution when overriding this method.
-		COMMENT The logical side can be checked using {@link net.minecraft.world.World#isClient() world.isClient()}.
+		COMMENT the logical side can be checked using {@link net.minecraft.world.World#isClient() world.isClient()}.
 		COMMENT
 		COMMENT @return a typed action result that specifies whether using the item was successful.
-		COMMENT The action result contains the new item stack that the player's hand will be set to.
+		COMMENT the action result contains the new item stack that the player's hand will be set to.
 		ARG 1 world
 			COMMENT the world the item was used in
 		ARG 2 user
@@ -146,7 +146,7 @@ CLASS net/minecraft/class_1792 net/minecraft/item/Item
 		COMMENT Called when an item is used on a block.
 		COMMENT
 		COMMENT <p>This method is called on both the logical client and logical server, so take caution when using this method.
-		COMMENT The logical side can be checked using {@link net.minecraft.world.World#isClient() context.getWorld().isClient()}.
+		COMMENT the logical side can be checked using {@link net.minecraft.world.World#isClient() context.getWorld().isClient()}.
 		COMMENT
 		COMMENT @return an action result that specifies if using the item on a block was successful.
 		ARG 1 context
