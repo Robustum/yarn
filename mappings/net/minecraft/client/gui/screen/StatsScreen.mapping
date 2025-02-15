@@ -42,9 +42,9 @@ CLASS net/minecraft/class_447 net/minecraft/client/gui/screen/StatsScreen
 			ARG 1 statType
 		METHOD method_19410 getStatType (I)Lnet/minecraft/class_3448;
 			ARG 1 headerColumn
-		CLASS class_450 ItemComparator
 		CLASS class_4199 Entry
 			METHOD method_19405 render (Lnet/minecraft/class_4587;Lnet/minecraft/class_3445;IIZ)V
+		CLASS class_450 ItemComparator
 	CLASS class_4202 EntityStatsListWidget
 		CLASS class_4201 Entry
 			FIELD field_18762 entityType Lnet/minecraft/class_1299;

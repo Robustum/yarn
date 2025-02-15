@@ -56,6 +56,17 @@ CLASS net/minecraft/class_793 net/minecraft/client/render/model/json/JsonUnbaked
 		ARG 3 side
 		ARG 4 settings
 		ARG 5 id
+	CLASS class_4751 GuiLight
+		FIELD field_21858 Lnet/minecraft/class_793$class_4751;
+			COMMENT the model will be shaded from the front, like a basic item
+		FIELD field_21859 Lnet/minecraft/class_793$class_4751;
+			COMMENT the model will be shaded from the side, like a block.
+		FIELD field_21860 name Ljava/lang/String;
+		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
+			ARG 3 name
+		METHOD method_24299 isSide ()Z
+		METHOD method_24300 deserialize (Ljava/lang/String;)Lnet/minecraft/class_793$class_4751;
+			ARG 0 value
 	CLASS class_795 Deserializer
 		METHOD deserialize (Lcom/google/gson/JsonElement;Ljava/lang/reflect/Type;Lcom/google/gson/JsonDeserializationContext;)Ljava/lang/Object;
 			ARG 1 element
@@ -76,14 +87,3 @@ CLASS net/minecraft/class_793 net/minecraft/client/render/model/json/JsonUnbaked
 			ARG 2 object
 		METHOD method_3453 deserializeAmbientOcclusion (Lcom/google/gson/JsonObject;)Z
 			ARG 1 json
-	CLASS class_4751 GuiLight
-		FIELD field_21858 Lnet/minecraft/class_793$class_4751;
-			COMMENT the model will be shaded from the front, like a basic item
-		FIELD field_21859 Lnet/minecraft/class_793$class_4751;
-			COMMENT the model will be shaded from the side, like a block.
-		FIELD field_21860 name Ljava/lang/String;
-		METHOD <init> (Ljava/lang/String;ILjava/lang/String;)V
-			ARG 3 name
-		METHOD method_24299 isSide ()Z
-		METHOD method_24300 deserialize (Ljava/lang/String;)Lnet/minecraft/class_793$class_4751;
-			ARG 0 value

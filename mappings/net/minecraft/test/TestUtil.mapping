@@ -1,4 +1,5 @@
 CLASS net/minecraft/class_4520 net/minecraft/test/TestUtil
+	FIELD field_20573 FAILURE_LOGGER Lnet/minecraft/class_4531;
 	METHOD method_22203 startTest (Lnet/minecraft/class_4517;Lnet/minecraft/class_2338;Lnet/minecraft/class_4521;)V
 	METHOD method_22207 createBook (Ljava/lang/String;ZLjava/lang/String;)Lnet/minecraft/class_1799;
 		ARG 0 structureName

@@ -8,6 +8,14 @@ CLASS net/minecraft/class_466 net/minecraft/client/gui/screen/ingame/BeaconScree
 		ARG 1 handler
 		ARG 2 inventory
 		ARG 3 title
+	CLASS class_4072 IconButtonWidget
+		FIELD field_18224 u I
+		FIELD field_18225 v I
+		METHOD <init> (IIII)V
+			ARG 1 x
+			ARG 2 y
+			ARG 3 u
+			ARG 4 v
 	CLASS class_467 CancelButtonWidget
 		METHOD <init> (Lnet/minecraft/class_466;II)V
 			ARG 2 x
@@ -34,11 +42,3 @@ CLASS net/minecraft/class_466 net/minecraft/client/gui/screen/ingame/BeaconScree
 		METHOD method_2401 setDisabled (Z)V
 			ARG 1 disabled
 		METHOD method_2402 isDisabled ()Z
-	CLASS class_4072 IconButtonWidget
-		FIELD field_18224 u I
-		FIELD field_18225 v I
-		METHOD <init> (IIII)V
-			ARG 1 x
-			ARG 2 y
-			ARG 3 u
-			ARG 4 v

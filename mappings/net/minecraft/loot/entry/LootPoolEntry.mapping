@@ -8,13 +8,6 @@ CLASS net/minecraft/class_79 net/minecraft/loot/entry/LootPoolEntry
 		ARG 1 context
 	METHOD method_415 validate (Lnet/minecraft/class_58;)V
 		ARG 1 reporter
-	CLASS class_80 Builder
-		FIELD field_990 conditions Ljava/util/List;
-		METHOD method_417 alternatively (Lnet/minecraft/class_79$class_80;)Lnet/minecraft/class_65$class_66;
-			ARG 1 builder
-		METHOD method_418 getThisBuilder ()Lnet/minecraft/class_79$class_80;
-		METHOD method_419 build ()Lnet/minecraft/class_79;
-		METHOD method_420 getConditions ()[Lnet/minecraft/class_5341;
 	CLASS class_5337 Serializer
 		METHOD method_422 addEntryFields (Lcom/google/gson/JsonObject;Lnet/minecraft/class_79;Lcom/google/gson/JsonSerializationContext;)V
 			ARG 1 json
@@ -24,3 +17,10 @@ CLASS net/minecraft/class_79 net/minecraft/loot/entry/LootPoolEntry
 			ARG 1 json
 			ARG 2 context
 			ARG 3 conditions
+	CLASS class_80 Builder
+		FIELD field_990 conditions Ljava/util/List;
+		METHOD method_417 alternatively (Lnet/minecraft/class_79$class_80;)Lnet/minecraft/class_65$class_66;
+			ARG 1 builder
+		METHOD method_418 getThisBuilder ()Lnet/minecraft/class_79$class_80;
+		METHOD method_419 build ()Lnet/minecraft/class_79;
+		METHOD method_420 getConditions ()[Lnet/minecraft/class_5341;
