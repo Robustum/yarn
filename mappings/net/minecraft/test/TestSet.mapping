@@ -1,5 +1,6 @@
 CLASS net/minecraft/class_4524 net/minecraft/test/TestSet
 	FIELD field_20577 tests Ljava/util/Collection;
+	FIELD field_25303 lisnteners Ljava/util/Collection;
 	METHOD <init> (Ljava/util/Collection;)V
 		ARG 1 tests
 	METHOD method_22229 getFailedRequiredTestCount ()I
@@ -14,3 +15,5 @@ CLASS net/minecraft/class_4524 net/minecraft/test/TestSet
 	METHOD method_22238 getTestCount ()I
 	METHOD method_22239 isDone ()Z
 	METHOD method_22240 getResultString ()Ljava/lang/String;
+	METHOD method_29407 addListener (Ljava/util/function/Consumer;)V
+		ARG 1 onFailed
