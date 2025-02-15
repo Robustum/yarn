@@ -332,6 +332,7 @@ CLASS net/minecraft/class_761 net/minecraft/client/render/WorldRenderer
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	CLASS class_5347 ShaderException
 	CLASS class_762 ChunkInfo
 		FIELD field_4122 propagationLevel I
 		FIELD field_4124 chunk Lnet/minecraft/class_846$class_851;
@@ -347,4 +348,3 @@ CLASS net/minecraft/class_761 net/minecraft/client/render/WorldRenderer
 		METHOD method_3299 updateCullingState (BLnet/minecraft/class_2350;)V
 			ARG 1 parentCullingState
 			ARG 2 from
-	CLASS class_5347 ShaderException

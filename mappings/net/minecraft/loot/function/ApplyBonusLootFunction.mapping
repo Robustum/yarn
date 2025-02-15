@@ -25,6 +25,14 @@ CLASS net/minecraft/class_94 net/minecraft/loot/function/ApplyBonusLootFunction
 		ARG 0 enchantment
 		ARG 1 probability
 		ARG 2 extra
+	CLASS class_100 UniformBonusCount
+		FIELD field_1016 ID Lnet/minecraft/class_2960;
+		FIELD field_1017 bonusMultiplier I
+		METHOD <init> (I)V
+			ARG 1 bonusMultiplier
+		METHOD method_471 fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lnet/minecraft/class_94$class_96;
+			ARG 0 json
+			ARG 1 context
 	CLASS class_95 BinomialWithBonusCount
 		FIELD field_1012 probability F
 		FIELD field_1013 ID Lnet/minecraft/class_2960;
@@ -54,11 +62,3 @@ CLASS net/minecraft/class_94 net/minecraft/loot/function/ApplyBonusLootFunction
 			ARG 0 json
 			ARG 1 context
 	CLASS class_99 Serializer
-	CLASS class_100 UniformBonusCount
-		FIELD field_1016 ID Lnet/minecraft/class_2960;
-		FIELD field_1017 bonusMultiplier I
-		METHOD <init> (I)V
-			ARG 1 bonusMultiplier
-		METHOD method_471 fromJson (Lcom/google/gson/JsonObject;Lcom/google/gson/JsonDeserializationContext;)Lnet/minecraft/class_94$class_96;
-			ARG 0 json
-			ARG 1 context

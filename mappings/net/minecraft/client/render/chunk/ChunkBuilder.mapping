@@ -39,6 +39,7 @@ CLASS net/minecraft/class_846 net/minecraft/client/render/chunk/ChunkBuilder
 	METHOD method_3635 scheduleUpload (Lnet/minecraft/class_287;Lnet/minecraft/class_291;)Ljava/util/concurrent/CompletableFuture;
 		ARG 1 buffer
 		ARG 2 glBuffer
+	CLASS class_4690 Result
 	CLASS class_849 ChunkData
 		FIELD field_4450 nonEmptyLayers Ljava/util/Set;
 		FIELD field_4451 EMPTY Lnet/minecraft/class_846$class_849;
@@ -119,4 +120,3 @@ CLASS net/minecraft/class_846 net/minecraft/client/render/chunk/ChunkBuilder
 				ARG 3 blockEntity
 		CLASS class_4579 SortTask
 			FIELD field_20841 data Lnet/minecraft/class_846$class_849;
-	CLASS class_4690 Result
